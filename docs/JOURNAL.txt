@@ -1,0 +1,5 @@
+DATA COLLECTION
+Dataset for project sourced from *kaggle*. It includes more than 30  features with a mix of numerical, categorical and ordinal values.
+
+DATA CLEANING
+First model input features selected manually,  relying on basic intuition.
