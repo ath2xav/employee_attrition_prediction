@@ -1,5 +1,18 @@
-DATA COLLECTION
+1.FIRST RUN 
+
+1.1 DATA COLLECTION
 Dataset for project sourced from *kaggle*. It includes more than 30  features with a mix of numerical, categorical and ordinal values.
 
-DATA CLEANING
-First model input features selected manually,  relying on basic intuition.
+1.2 DATA CLEANING
+Dropped obviously irrelevant columns(distance from home, gender),
+encoded all ordinal categorical data
+
+1.3 CORRELATION MATRIX
+To avoid high dimensionality, only features most correlated with attrition have to be selected
+for that a correlation matrix was drawn up.
+
+1.4 MODEL  SELECTION AND TRAINING
+Due to the high amount of features and the mix of ordinal and numerical features an ANN model was selected.
+The features identified as most relevant from the correlation matrix was selected.
+And the model was trained
+
