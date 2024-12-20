@@ -1,0 +1,19 @@
+imported libraries
+
+loaded dataset
+
+Identifying rows and columns and info on the dataset.
+
+Dropped columns employee count ,standard hours ,monthly rate ,daily rate,  hourly rate,distance from home,  because  they had no relevance in the target prediction.
+
+The dataset currently contains lot of categorical values which ML models cannot work with directly. So label encoding was done.
+
+
+To select which features to select for training , a Correlation matrix was drawn up to find the qualitative effect other features have on attrition.
+
+Most correlated features was selected for training a ANN model.
+A confusion matrix was drawn.
+
+The accuracy was found to be 84.7%
+
+ 
